@@ -26,14 +26,14 @@ function Nav() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button>Resume</Button>
+        <Button onClick={goToResume}>Resume</Button>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link href="/navbars" active={true}>
+        <Navbar.Link href="#about" active={true}>
           Home
         </Navbar.Link>
-        <Navbar.Link href="/navbars">About</Navbar.Link>
+        <Navbar.Link href="#about">About</Navbar.Link>
         <Navbar.Link href="/navbars">Contact</Navbar.Link>
         
       </Navbar.Collapse>
