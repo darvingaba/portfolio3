@@ -30,7 +30,7 @@ function Nav() {
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
-        <Navbar.Link href="#about" active={true}>
+        <Navbar.Link href="#" active={true}>
           Home
         </Navbar.Link>
         <Navbar.Link href="#about">About</Navbar.Link>
