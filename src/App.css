@@ -123,3 +123,10 @@ body{
 .dark_mode_input:checked + .dark_mode_label svg.moon {
     fill: #fff;
 }
+
+
+.gradientText{
+  background-image: linear-gradient(90deg,#3A1C71 , #D76D77,#FFAF7B);
+  background-clip: text;
+  color: transparent;
+}

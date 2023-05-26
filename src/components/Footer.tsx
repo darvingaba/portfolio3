@@ -12,7 +12,7 @@ function Footer() {
               <img
                 src={Logo}
                 className="mr-3 h-8"
-                alt="FlowBite Logo"
+                alt="Logo"
               />
               <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
                 Darvin

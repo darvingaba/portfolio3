@@ -1,6 +1,7 @@
 import React from 'react'
 import {Navbar,Button} from 'flowbite-react'
 import Logo from "../assets/logo.png"
+import Modals from './Modals';
 
 
 
@@ -15,12 +16,8 @@ function Nav() {
 
   return (
     <Navbar fluid={true} rounded={true}>
-      <Navbar.Brand href="https://flowbite.com/">
-        <img
-          src={Logo}
-          className="mr-3 h-6 sm:h-9"
-          alt="Flowbite Logo"
-        />
+      <Navbar.Brand href="">
+        <img src={Logo} className="mr-3 h-6 sm:h-9" alt="Logo" />
         <span className="self-center whitespace-nowrap text-xl font-semibold dark:text-white">
           Darvin
         </span>
@@ -34,8 +31,26 @@ function Nav() {
           Home
         </Navbar.Link>
         <Navbar.Link href="#about">About</Navbar.Link>
-        <Navbar.Link href="/navbars">Contact</Navbar.Link>
+
+        {/* modal */}
         
+ 
+        <Modals/>
+        
+
+
+      
+
+
+
+
+
+
+
+
+
+
+
       </Navbar.Collapse>
     </Navbar>
   );
