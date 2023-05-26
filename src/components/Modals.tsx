@@ -18,7 +18,7 @@ export default function Modals() {
         <button
           type="button"
           onClick={openModal}
-          className="whitespace-nowrap text-l font-semibold  "
+          className="contact       whitespace-nowrap text-gray-700 "
         >
           Contact
         </button>
