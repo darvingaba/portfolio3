@@ -16,7 +16,7 @@ function Projects() {
         <div className="grid grid-cols-1 mt-12 text-center sm:mt-16 gap-x-20 gap-y-12 sm:grid-cols-2 lg:grid-cols-3">
           <div className="space-y-4">
             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-              Alphabet Inc.
+              FrontEnd
             </span>
             <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
               Official website
@@ -50,7 +50,7 @@ function Projects() {
 
           <div className="space-y-4">
             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-              Microsoft Corp.
+              BackEnd
             </span>
             <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
               Management system
@@ -84,7 +84,7 @@ function Projects() {
 
           <div className="space-y-4">
             <span className="bg-gray-100 text-gray-900 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-gray-700 dark:text-gray-300">
-              Adobe Inc.
+              Soft Skills
             </span>
             <h3 className="text-2xl font-bold leading-tight text-gray-900 dark:text-white">
               Logo design

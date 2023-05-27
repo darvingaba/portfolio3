@@ -1,6 +1,8 @@
 import React from 'react'
 import {Navbar,Button} from 'flowbite-react'
 import Logo from "../assets/logo.png"
+import CV from "../assets/CV.pdf"
+import download from "../assets/download-circular-button.png"
 import Modals from './Modals';
 
 
@@ -9,9 +11,7 @@ function Nav() {
     let[dark,setDark]=React.useState(false);
 
 
-    function goToResume(){
-        window.open("https://github.com/darvingaba/", "_blank");
-    }
+
 
 
   return (
@@ -23,7 +23,16 @@ function Nav() {
         </span>
       </Navbar.Brand>
       <div className="flex md:order-2">
-        <Button onClick={goToResume}>Resume</Button>
+        <a href={CV} download="CV">
+          <Button>
+            <img
+              className="h-6 sm:h-6 mr-1 pr-1 	rounded-full"
+              src={download}
+              alt=""
+            />
+            CV
+          </Button>
+        </a>
         <Navbar.Toggle />
       </div>
       <Navbar.Collapse>
@@ -33,24 +42,8 @@ function Nav() {
         <Navbar.Link href="#about">About</Navbar.Link>
 
         {/* modal */}
-        
- 
-        <Modals/>
-        
 
-
-      
-
-
-
-
-
-
-
-
-
-
-
+        <Modals />
       </Navbar.Collapse>
     </Navbar>
   );
