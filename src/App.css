@@ -12,9 +12,9 @@ body{
 }
 
 .loader{
-  position: absolute;
+  position: fixed;
   left: 50%;
-  top:45vh;
+  top:50vh;
 }
 .logo {
   height: 6em;

@@ -16,7 +16,7 @@ useEffect(()=>{
     setLoading(false)
   },3500)
 },[])
-  
+
 
   return (
     <div className="App dark:ring-primary-900">
