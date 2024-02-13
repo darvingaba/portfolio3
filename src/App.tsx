@@ -17,7 +17,6 @@ useEffect(()=>{
   },3500)
 },[])
 
-
   return (
     <div className="App dark:ring-primary-900">
       {loading ? (
